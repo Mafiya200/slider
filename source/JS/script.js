@@ -115,12 +115,8 @@ new Swiper(`.swiper`, {
         },
     },
 
-
-    preloadImages: false,
-    lazy: {
-        loadOnTransitionStart: false,
-        loadPrevNext: false,
-    },
-    watchSlidesProgress:true,
-    watchSlidesVisibility:true,
+preloadImages:false,
+lazy:true,
+watchSlidesProgress:true,// слежка за видимыми слайдами         для значения slidesPerView auto или больше 1
+watchSlidesVisibility:true,// добавление класса видимым слайдам для значения slidesPerView auto или больше 1
 });
